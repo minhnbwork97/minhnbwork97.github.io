@@ -231,8 +231,7 @@ const achievementSection = {
     },
     {
       title: "NestJS Advanced Concepts",
-      subtitle:
-        "Advanced concepts in NestJS",
+      subtitle: "Advanced concepts in NestJS",
       image: require("./assets/images/nestjs_advanced.png"),
       imageAlt: "NestJS Advanced Concepts logo",
       footerLink: []
@@ -294,8 +293,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Go say Hi!",
+  subtitle: "Go say Hi!",
   number: "",
   email_address: "minhnb.work97@gmail.com"
 };
