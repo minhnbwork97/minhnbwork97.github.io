@@ -23,7 +23,7 @@ const greeting = {
   username: "Minh Nguyen Binh",
   title: "Welcome",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I’m a software engineer focused on building impactful products through deep technical execution, project management discipline, and product design thinking. I connect engineering decisions with business outcomes, and I continuously explore new technologies—especially AI—to deliver practical value."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -44,14 +44,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "FULL-STACK SOFTWARE ENGINEER WITH DEEP TECHNICAL EXPERTISE, PROJECT MANAGEMENT CAPABILITY, AND PRODUCT DESIGN THINKING",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Deliver end-to-end software solutions across frontend, backend, data, cloud, and operations"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Lead project planning and execution with clear scope, timeline, stakeholder alignment, and delivery quality"
+    ),
+    emoji(
+      "⚡ Apply product design thinking to shape user-centered solutions from discovery to delivery"
+    ),
+    emoji(
+      "⚡ Analyze product requirements and translate business needs into practical, measurable technical solutions"
     )
   ],
 
@@ -60,52 +66,56 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
+      skillName: "frontend",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "backend",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "api-system-design",
+      fontAwesomeClassname: "fas fa-project-diagram"
     },
     {
-      skillName: "sql-database",
+      skillName: "devops-cloud",
+      fontAwesomeClassname: "fas fa-cloud"
+    },
+    {
+      skillName: "ci-cd",
+      fontAwesomeClassname: "fas fa-code-branch"
+    },
+    {
+      skillName: "database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "business-analysis",
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "project-management",
+      fontAwesomeClassname: "fas fa-tasks"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "product-thinking",
+      fontAwesomeClassname: "fas fa-lightbulb"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "product-design",
+      fontAwesomeClassname: "fas fa-pencil-ruler"
+    },
+    {
+      skillName: "communication-impact",
+      fontAwesomeClassname: "fas fa-bullhorn"
+    },
+    {
+      skillName: "ai-ml",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "testing-qa",
+      fontAwesomeClassname: "fas fa-vial"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -120,17 +130,27 @@ const educationInfo = {
       schoolName: "VNU University of Engineering and Technology",
       logo: require("./assets/images/vnu_uet_logo.webp"),
       subHeader: "Master of Software Engineering",
-      duration: "November 2022 - Present",
-      desc: "Working on a code smell detection method",
-      descBullets: ["Re-exploring my journey as a developer"]
+      duration: "November 2022 - November 2024",
+      desc: "Strengthened both technical foundations and management thinking for systematic software development.",
+      descBullets: [
+        "Advanced study in software project management and software development processes",
+        "Focused on software architecture, scalability, and maintainability",
+        "In-depth learning in deep learning and practical AI applications",
+        "Master thesis: Developed GRACOS (Graph-Based Code Smell Detector) - a code smell detection method using graph neural networks",
+        "Practiced testing strategies to ensure product quality"
+      ]
     },
     {
-      schoolName: "HaNoi University of science and technology",
+      schoolName: "HaNoi University of Science and Technology",
       logo: require("./assets/images/hust_logo.png"),
       subHeader: "Bachelor of Information Technology",
       duration: "September 2015 - April 2019",
-      desc: "",
-      descBullets: ["Met some good friends, shared some unforgettable memories"]
+      desc: "Built a strong foundation in computer science and software development.",
+      descBullets: [
+        "Mastered core knowledge in programming, data structures, and algorithms",
+        "Studied databases, operating systems, computer networks, and software engineering",
+        "Built practical applications to develop product-oriented thinking"
+      ]
     }
   ]
 };
@@ -141,16 +161,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Engineering Excellence", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "80%"
+      Stack: "Project Management & Delivery",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Devops",
-      progressPercentage: "50%"
+      Stack: "Product Design & Thinking",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -165,9 +185,25 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Demetio",
       companylogo: require("./assets/images/demetio.jpeg"),
-      date: "March 2023 – Present",
-      desc: "",
-      descBullets: []
+      date: "February 2023 – Present",
+      desc: "Drive end-to-end product engineering while coordinating delivery across technical and business stakeholders.",
+      descBullets: [
+        "Built and scaled production-ready systems across frontend, backend, cloud, and data workflows",
+        "Planned and delivered project milestones with clear priorities, timelines, and quality standards",
+        "Collaborated with product and cross-functional teams to shape user-focused solutions"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Agilead Global",
+      companylogo: require("./assets/images/agilead.png"),
+      date: "September 2019 – February 2023",
+      desc: "Contributed to software delivery from implementation to production while strengthening project ownership and product mindset.",
+      descBullets: [
+        "Developed reliable application features and backend services for real-world product needs",
+        "Supported sprint planning, task coordination, and on-time delivery across teams",
+        "Worked closely with product stakeholders to balance user value, technical constraints, and business impact"
+      ]
     }
   ]
 };
@@ -222,6 +258,13 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
 
   achievementsCards: [
+    {
+      title: "AWS Certified Solutions Architect – Associate",
+      subtitle: "Designing and deploying scalable systems on AWS",
+      image: require("./assets/images/aws-sa.png"),
+      imageAlt: "AWS Certified Solutions Architect – Associate logo",
+      footerLink: []
+    },
     {
       title: "AWS Cloud Practitioner",
       subtitle: "Stepping into AWS",
