@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cde45d76.css",
-    "main.js": "/static/js/main.1094604f.js",
+    "main.js": "/static/js/main.b07dc6ee.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.31047cd1.chunk.js": "/static/js/64.31047cd1.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/nestjs_advanced.png": "/static/media/nestjs_advanced.1607312865a3648369fa.png",
     "static/media/hust_logo.png": "/static/media/hust_logo.9a0f0d369327945bd60d.png",
+    "static/media/aws-sa.png": "/static/media/aws-sa.b37849e101fd9ba2b017.png",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/aws_ccp.png": "/static/media/aws_ccp.284daf7352c938e4e533.png",
     "static/media/vnu_uet_logo.webp": "/static/media/vnu_uet_logo.91429f6198160dc9be04.webp",
@@ -22,7 +23,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.cde45d76.css.map": "/static/css/main.cde45d76.css.map",
-    "main.1094604f.js.map": "/static/js/main.1094604f.js.map",
+    "main.b07dc6ee.js.map": "/static/js/main.b07dc6ee.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.31047cd1.chunk.js.map": "/static/js/64.31047cd1.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -30,6 +31,6 @@
   },
   "entrypoints": [
     "static/css/main.cde45d76.css",
-    "static/js/main.1094604f.js"
+    "static/js/main.b07dc6ee.js"
   ]
 }
